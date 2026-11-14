@@ -1,2 +1,3 @@
 # simonkoo.github.io
-Home of 古懂AI / Koo for Thought — Simon Koo on AI, learning, parenting, and ethics.
+
+Public landing page for 古懂AI with Dr. Simon Koo. The site introduces accessible AI explanations with a focus on education, ethics, and governance. It is hosted on GitHub Pages at https://simonkoo.github.io/.
