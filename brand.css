@@ -1,5 +1,5 @@
 :root{--night:#101b31;--navy:#0737d5;--line:#dedfdc;--paper:#fff9ef;--ink:#101b31;--muted:#526078;--cyan:#0737d5;--lime:#ffcf8b}
-body{background:var(--paper);font-family:system-ui,-apple-system,"Segoe UI",Arial,"Microsoft JhengHei",sans-serif}
+body{background:var(--paper);font-family:Arial,"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif}
 .host h2{max-width:none;font-size:clamp(2.2rem,4.5vw,3.6rem);letter-spacing:-.035em}
 .host-greeting{font-size:clamp(1.35rem,2.5vw,2rem);font-weight:650;line-height:1.4;margin:18px 0}
 .host-name{font-size:.95rem;color:var(--muted)}
@@ -12,9 +12,10 @@ body{background:var(--paper);font-family:system-ui,-apple-system,"Segoe UI",Aria
 .hero{grid-template-columns:1.25fr .75fr;gap:64px;min-height:620px;padding:70px 0 80px}
 .hero .eyebrow{color:var(--navy)}
 .hero h1{margin:20px 0 30px;max-width:650px;line-height:1}.hero h1 img{display:block;width:100%;height:auto}
-.brand-promise{font-size:clamp(1.25rem,2.6vw,1.95rem);font-weight:750;line-height:1.65;letter-spacing:.01em;margin:0 0 24px;white-space:nowrap}
-mark{color:var(--ink);background:var(--lime);padding:0 .1em}
-.hero .lead{color:var(--muted);font-size:1.1rem;max-width:580px}.hero .english-promise{font-size:.95rem;color:var(--muted);margin-top:-13px;margin-bottom:26px}
+.brand-promise{font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif;font-size:clamp(1.25rem,2.6vw,1.95rem);font-weight:700;line-height:1.5;letter-spacing:0;font-feature-settings:"halt" 1;margin:0 0 12px;white-space:nowrap}
+.brand-promise mark{font:inherit;color:inherit;background:linear-gradient(transparent 72%,var(--lime) 72%,var(--lime) 94%,transparent 94%);padding:0}
+.hero .lead,.hero .english-promise{font-size:1.0625rem;font-weight:400;line-height:1.65;letter-spacing:normal;max-width:580px;color:var(--muted)}
+.hero .english-promise{margin:0 0 20px;text-wrap:pretty}.hero .lead{margin:0;text-wrap:pretty}
 .host-portrait{margin:0;align-self:center;text-align:center}.host-portrait img{display:block;width:100%;height:auto;max-width:380px;margin:auto;border-radius:50%;aspect-ratio:1}.host-portrait figcaption{margin-top:20px;font-size:.88rem;color:var(--muted)}
 .actions{margin-top:28px}.button{border-color:var(--navy);border-radius:999px;color:var(--navy)}.button.primary{background:var(--navy);color:white}.button:hover,.button:focus-visible{box-shadow:0 0 0 3px #0737d520}
 .card{border-color:#101b3120;box-shadow:none;border-radius:12px}.card .num{color:var(--navy)}.card .rule{background:var(--navy)}.card:nth-child(3) .rule{background:#ff8c32}
