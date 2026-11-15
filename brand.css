@@ -3,7 +3,7 @@ body{background:var(--paper);font-family:system-ui,-apple-system,"Segoe UI",Aria
 .host h2{max-width:none;font-size:clamp(2.2rem,4.5vw,3.6rem);letter-spacing:-.035em}
 .host-greeting{font-size:clamp(1.35rem,2.5vw,2rem);font-weight:650;line-height:1.4;margin:18px 0}
 .host-name{font-size:.95rem;color:var(--muted)}
-.host .background-note{font-size:1rem;line-height:1.75;margin-top:28px}
+.host .intro p{font-size:1.1rem;line-height:1.65;margin:0 0 1.1em;color:var(--muted)}
 .membership-note{font-size:.88rem;letter-spacing:.02em;color:var(--navy);margin:18px 0 0}
 .dark{background:var(--paper);color:var(--ink)}.dark:before{display:none}
 .top{border-bottom:1px solid #101b3120}.brand img{display:block;width:138px;height:auto}.top nav a{color:var(--ink)}
