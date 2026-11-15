@@ -5,6 +5,7 @@ body{background:var(--paper);font-family:system-ui,-apple-system,"Segoe UI",Aria
 .host-name{font-size:.95rem;color:var(--muted)}
 .host .intro p{font-size:1.1rem;line-height:1.65;margin:0 0 1.1em;color:var(--muted)}
 .host .intro a{color:var(--navy);font-weight:700;text-decoration-thickness:1px;text-underline-offset:3px}
+.host details{margin-top:24px;border-top:1px solid #101b3120;padding-top:18px}.host summary{cursor:pointer;font-weight:700;color:var(--navy);margin-bottom:18px}.host summary:focus-visible{outline:2px solid var(--navy);outline-offset:5px}
 .membership-note{font-size:.88rem;letter-spacing:.02em;color:var(--navy);margin:18px 0 0}
 .dark{background:var(--paper);color:var(--ink)}.dark:before{display:none}
 .top{border-bottom:1px solid #101b3120}.brand img{display:block;width:138px;height:auto}.top nav a{color:var(--ink)}
